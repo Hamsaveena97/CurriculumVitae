@@ -1,0 +1,91 @@
+  body {
+    background-color: #FAEDF0;
+    /*font-family: fantasy;*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+  hr {
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
+  }
+
+  h1 {
+    font-size: 80px; /* 100%=16px, so for 90px=90/16=5.625 or 562.5% for using <em> tag</em> 16px=100%=1em so for 90px=562.5px=5.625em*/
+    margin-top: 50px;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .top-container {
+    position: relative;
+    padding-top: 100px;
+  }
+
+  /*.middle-container{
+
+}
+.bottom-container{
+
+}*/
+  .pro {
+    color: red;
+  }
+
+  .top-cloud {
+    position: absolute;
+    left: 800px;
+    top: 50px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+  }
+
+  .btn {
+    width: 50px;
+  }
+  .skill-row{
+    padding : 50px;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  .mypic{
+    width: 25%;
+  }
+
+  .swatches
+  {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .girlskill
+  {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+  }
+  
